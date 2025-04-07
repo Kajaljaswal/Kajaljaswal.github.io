@@ -3,13 +3,15 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            font-family: 'Times New Roman', Times, serif;
         }
         
         body {
             background-color: #fff;
             color: #333;
             line-height: 1.6;
+            font-family: 'Times New Roman', Times, serif;
         }
         
         a {
@@ -40,13 +42,16 @@
         }
         
         nav ul li a {
+            display: inline-block;
             color: #333;
             font-weight: 500;
+            font-family: 'Times New Roman', Times, serif;
             transition: color 0.3s;
         }
         
         nav ul li a:hover {
             color: #fff;
+         
         }
 
         .social-links {
@@ -66,14 +71,14 @@
         /* Hero Section */
         .hero {
             background-color: #b39684;
-            padding: 3rem 5% 5rem;
+            /* padding: 3rem 5% 5rem; */
             text-align: center;
         }
         
         .hero h1 {
             font-size: 5rem;
             color: #fff;
-            margin-bottom: 1rem;
+            /* margin-bottom: 1rem; */
         }
         
         /* About Section */
@@ -89,7 +94,7 @@
         }
         
         .about-image img {
-            width: 100%;
+            width: 50%;
             border-radius: 5px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
@@ -100,13 +105,15 @@
         
         .about-content h2 {
             font-size: 3rem;
+            font-family: 'Times New Roman', Times, serif;
             margin-bottom: 1.5rem;
             color: #333;
         }
         
         .about-content p {
             margin-bottom: 1.5rem;
-            font-size: 1.1rem;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.8rem;
             color: #555;
         }
 
